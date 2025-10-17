@@ -19,5 +19,5 @@ https://github.com/SigmaHQ/sigma-cli -> converter powered by pySigma
 
 **References**
 
-https://sigmahq.io/docs/guide/getting-started.html
-https://www.youtube.com/watch?v=WI3C3stHtcI
+https://sigmahq.io/docs/guide/getting-started.html  
+https://www.youtube.com/watch?v=WI3C3stHtcI  
