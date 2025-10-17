@@ -10,9 +10,9 @@ It is built as an open-source standard so that a single Sigma detection rule can
 
 **Repos**
 
-https://github.com/SigmaHQ/sigma -> main repo containing the rules\n
-https://github.com/SigmaHQ/pySigma -> python library that parses and converts Sigma rules into queries\n
-https://github.com/SigmaHQ/sigma-cli -> converter powered by pySigma\n
+https://github.com/SigmaHQ/sigma -> main repo containing the rules  
+https://github.com/SigmaHQ/pySigma -> python library that parses and converts Sigma rules into queries  
+https://github.com/SigmaHQ/sigma-cli -> converter powered by pySigma  
 
 **References**
 
