@@ -1,5 +1,8 @@
 # Sigma-Rules-in-Splunk
 
+<img width="2337" height="1050" alt="image" src="https://github.com/user-attachments/assets/88a95bd6-1806-4aee-93ca-631ca599083d" />
+
+
 **High Level Concept (HLC)**
 
 “Sigma is for log files what Snort is for network traffic and YARA is for files.”
