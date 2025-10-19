@@ -32,7 +32,7 @@ sigma convert -t <backend> -p <processing pipeline 1> -p <processing pipeline 2>
 backend = splunk
 processing pipeline = 
 
-3. 
+3. install splunk backend (Sigma backends are the "drivers" of the Sigma conversion process, and implements the conversion capability that converts each Sigma rule file into a SIEM compatible query.)
 
 <img width="947" height="67" alt="image" src="https://github.com/user-attachments/assets/ab3275e5-1999-4af7-a2f3-ad6e0abd1ed2" />  
 
