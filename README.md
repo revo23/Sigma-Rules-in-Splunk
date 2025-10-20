@@ -48,6 +48,10 @@ processing pipeline = sysmon
 an output file can be specified with -o
 format specified for conversion with the -f option
 
+5. 
+<img width="922" height="88" alt="image" src="https://github.com/user-attachments/assets/68158fa8-9f8c-4a15-a600-a556b6886e11" />
+
+
 **References**
 
 https://sigmahq.io/docs/guide/getting-started.html  
