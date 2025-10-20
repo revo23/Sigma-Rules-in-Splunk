@@ -52,9 +52,13 @@ sigma plugin list --plugin-type pipeline
 
 5. Install sysmon pipeline (since we are converting process creation sigma rules)  
 
+sigma install sysmon
+
 <img width="922" height="88" alt="image" src="https://github.com/user-attachments/assets/68158fa8-9f8c-4a15-a600-a556b6886e11" />  
 
-6. To list all available splunk output formats
+6. To list all available splunk output formats  
+
+sigma list formats splunk  
 
 <img width="860" height="138" alt="image" src="https://github.com/user-attachments/assets/2a011a0a-3016-4d46-8f53-77707889dcb7" />
 
