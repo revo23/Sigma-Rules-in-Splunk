@@ -38,9 +38,13 @@ https://github.com/SigmaHQ/sigma-cli -> converter powered by pySigma
 
 sigma convert -t <backend> -p <processing pipeline 1> -p <processing pipeline 2> [...] <directory or file>
 
-backend = splunk
-processing pipeline = 
+backend = splunk  
+processing pipeline = sysmon
 
+4. 
+ sigma convert -t splunk -f savedsearches -p sysmon -o savedsearches.conf sigma/rules/windows/process_creation
+
+<img width="1425" height="42" alt="image" src="https://github.com/user-attachments/assets/523375b4-5349-4648-b62b-3bb3225bcc50" />
 
 
 **References**
