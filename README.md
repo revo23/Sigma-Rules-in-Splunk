@@ -37,13 +37,14 @@ sigma plugin list --plugin-type backend
 <img width="947" height="67" alt="image" src="https://github.com/user-attachments/assets/ab3275e5-1999-4af7-a2f3-ad6e0abd1ed2" />  
 
 backend = splunk  
-processing pipeline = sysmon
+processing pipeline = sysmon  
 Sysmon (System Monitor) is a Windows system service and driver from Microsoft’s Sysinternals Suite. It logs detailed system activity to the Windows Event Log, giving visibility into: Process creation and termination, Network connections, File creation time changes, Registry modifications, Image loading, etc.  
 
-4. To list all available pipelines plugins run the following command:
+4. To list all available pipelines plugins run the following command:  
+sigma plugin list --plugin-type pipelines
 <img width="922" height="88" alt="image" src="https://github.com/user-attachments/assets/68158fa8-9f8c-4a15-a600-a556b6886e11" />
 
-5. conversion invocation  
+6. conversion invocation  
  sigma convert -t splunk -f savedsearches -p sysmon -o savedsearches.conf sigma/rules/windows/process_creation
 
 <img width="1425" height="42" alt="image" src="https://github.com/user-attachments/assets/523375b4-5349-4648-b62b-3bb3225bcc50" />
