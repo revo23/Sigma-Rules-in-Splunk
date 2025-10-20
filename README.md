@@ -22,7 +22,7 @@ https://github.com/SigmaHQ/sigma-cli -> converter powered by pySigma
 
 1. pip3 install sigma-cli
 
-2. list plugins > splunk plugin (backend) is available
+2. list plugins > splunk plugin (backend) is available  
 
 sigma plugin list --plugin-type backend  
 
@@ -45,7 +45,7 @@ sigma plugin list --plugin-type pipelines
 <img width="922" height="88" alt="image" src="https://github.com/user-attachments/assets/68158fa8-9f8c-4a15-a600-a556b6886e11" />
 
 6. conversion invocation  
- sigma convert -t splunk -f savedsearches -p sysmon -o savedsearches.conf sigma/rules/windows/process_creation
+sigma convert -t splunk -f savedsearches -p sysmon -o savedsearches.conf sigma/rules/windows/process_creation
 
 <img width="1425" height="42" alt="image" src="https://github.com/user-attachments/assets/523375b4-5349-4648-b62b-3bb3225bcc50" />
 an output file can be specified with -o
