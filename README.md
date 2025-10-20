@@ -24,7 +24,6 @@ https://github.com/SigmaHQ/sigma-cli -> converter powered by pySigma
 
 pip3 install sigma-cli  
 <br>
-<br>
 
 2. To list all available backend plugins (Sigma backends are the "drivers" of the Sigma conversion process, and implements the conversion capability that converts each Sigma rule file into a SIEM compatible query.)  
 
@@ -33,8 +32,7 @@ sigma plugin list --plugin-type backend
 <img width="987" height="348" alt="image" src="https://github.com/user-attachments/assets/c409c3af-493f-4ef3-b633-efc4589a1d6e" />
 
 <img width="500" height="1000" alt="image" src="https://github.com/user-attachments/assets/8309e509-e721-49e7-ae38-2bc33a49d486" />
-
-
+<br>
 
 3. Install splunk backend
 
@@ -45,28 +43,28 @@ sigma plugin install splunk
 backend = splunk  
 processing pipeline = sysmon  
 Sysmon (System Monitor) is a Windows system service and driver from Microsoft’s Sysinternals Suite. It logs detailed system activity to the Windows Event Log, giving visibility into: Process creation and termination, Network connections, File creation time changes, Registry modifications, Image loading, etc.  
-
-
-
+<br>
 
 4. To list all available pipelines plugins 
 
 sigma plugin list --plugin-type pipeline  
 
 <img width="1003" height="205" alt="image" src="https://github.com/user-attachments/assets/a283f973-c82e-4223-ba52-b8795c0fb20c" />  
-
+<br>
 
 5. Install sysmon pipeline (since we are converting process creation sigma rules)  
 
 sigma plugin install sysmon  
 
 <img width="922" height="88" alt="image" src="https://github.com/user-attachments/assets/68158fa8-9f8c-4a15-a600-a556b6886e11" />  
+<br>
 
 6. To list all available splunk output formats  
 
 sigma list formats splunk  
 
 <img width="860" height="138" alt="image" src="https://github.com/user-attachments/assets/2a011a0a-3016-4d46-8f53-77707889dcb7" />
+<br>
 
 7. Conversion invocation
 
@@ -76,6 +74,7 @@ sigma convert -t splunk -f savedsearches -p sysmon -o savedsearches.conf sigma/r
 
 an output file can be specified with -o
 format specified for conversion with the -f option
+<br>
 
 8. 
 
