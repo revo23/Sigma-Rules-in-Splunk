@@ -51,6 +51,7 @@ sigma plugin list --plugin-type pipeline
 
 <img width="1003" height="205" alt="image" src="https://github.com/user-attachments/assets/a283f973-c82e-4223-ba52-b8795c0fb20c" />  
 <br>
+<br>
 
 5. Install sysmon pipeline (since we are converting process creation sigma rules)  
 
@@ -58,12 +59,14 @@ sigma plugin install sysmon
 
 <img width="922" height="88" alt="image" src="https://github.com/user-attachments/assets/68158fa8-9f8c-4a15-a600-a556b6886e11" />    
 <br>
+<br>
 
 6. To list all available splunk output formats  
 
 sigma list formats splunk  
 
 <img width="860" height="138" alt="image" src="https://github.com/user-attachments/assets/2a011a0a-3016-4d46-8f53-77707889dcb7" />
+<br>
 <br>
 
 7. Conversion invocation
@@ -74,6 +77,7 @@ sigma convert -t splunk -f savedsearches -p sysmon -o savedsearches.conf sigma/r
 
 an output file can be specified with -o
 format specified for conversion with the -f option
+<br>
 <br>
 
 8. 
