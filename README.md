@@ -20,9 +20,11 @@ https://github.com/SigmaHQ/sigma-cli -> converter powered by pySigma
 
 **Steps**
 
-1. pip3 install sigma-cli
+1. Install Sigma Command Line Interface  
 
-2. list plugins > splunk plugin (backend) is available (Sigma backends are the "drivers" of the Sigma conversion process, and implements the conversion capability that converts each Sigma rule file into a SIEM compatible query.)  
+pip3 install sigma-cli
+
+2. TO list all available backend plugins (Sigma backends are the "drivers" of the Sigma conversion process, and implements the conversion capability that converts each Sigma rule file into a SIEM compatible query.)  
 
 sigma plugin list --plugin-type backend  
 
@@ -32,7 +34,7 @@ sigma plugin list --plugin-type backend
 <img width="500" height="1000" alt="image" src="https://github.com/user-attachments/assets/8309e509-e721-49e7-ae38-2bc33a49d486" />
 
 
-3. install splunk backend 
+3. Install splunk backend 
 
 <img width="947" height="67" alt="image" src="https://github.com/user-attachments/assets/ab3275e5-1999-4af7-a2f3-ad6e0abd1ed2" />  
 
