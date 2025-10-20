@@ -30,7 +30,7 @@ sigma plugin list --plugin-type backend
 <img width="896" height="61" alt="image" src="https://github.com/user-attachments/assets/6538cd95-0810-4731-89cd-64b03ab05f25" />
 
 
-<img width="1000" height="1500" alt="image" src="https://github.com/user-attachments/assets/8309e509-e721-49e7-ae38-2bc33a49d486" />
+<img width="500" height="1000" alt="image" src="https://github.com/user-attachments/assets/8309e509-e721-49e7-ae38-2bc33a49d486" />
 
 
 3. install splunk backend (Sigma backends are the "drivers" of the Sigma conversion process, and implements the conversion capability that converts each Sigma rule file into a SIEM compatible query.)
