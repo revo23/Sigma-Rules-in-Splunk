@@ -27,7 +27,6 @@ https://github.com/SigmaHQ/sigma-cli -> converter powered by pySigma
 sigma plugin list --plugin-type backend  
 
 <img width="987" height="348" alt="image" src="https://github.com/user-attachments/assets/c409c3af-493f-4ef3-b633-efc4589a1d6e" />
-<img width="896" height="61" alt="image" src="https://github.com/user-attachments/assets/6538cd95-0810-4731-89cd-64b03ab05f25" />
 
 
 <img width="500" height="1000" alt="image" src="https://github.com/user-attachments/assets/8309e509-e721-49e7-ae38-2bc33a49d486" />
@@ -37,16 +36,14 @@ sigma plugin list --plugin-type backend
 
 <img width="947" height="67" alt="image" src="https://github.com/user-attachments/assets/ab3275e5-1999-4af7-a2f3-ad6e0abd1ed2" />  
 
-
-sigma convert -t <backend> -p <processing pipeline 1> -p <processing pipeline 2> [...] <directory or file>
-
 backend = splunk  
 processing pipeline = sysmon
+Sysmon (System Monitor) is a Windows system service and driver from Microsoft’s Sysinternals Suite. It logs detailed system activity to the Windows Event Log, giving visibility into: Process creation and termination, Network connections, File creation time changes, Registry modifications, Image loading, etc.  
 
 4. To list all available pipelines plugins run the following command:
 <img width="922" height="88" alt="image" src="https://github.com/user-attachments/assets/68158fa8-9f8c-4a15-a600-a556b6886e11" />
 
-5. conversion invocation
+5. conversion invocation  
  sigma convert -t splunk -f savedsearches -p sysmon -o savedsearches.conf sigma/rules/windows/process_creation
 
 <img width="1425" height="42" alt="image" src="https://github.com/user-attachments/assets/523375b4-5349-4648-b62b-3bb3225bcc50" />
