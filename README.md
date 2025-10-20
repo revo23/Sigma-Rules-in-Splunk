@@ -51,6 +51,7 @@ sigma plugin list --plugin-type pipeline
 
 <img width="1003" height="205" alt="image" src="https://github.com/user-attachments/assets/a283f973-c82e-4223-ba52-b8795c0fb20c" />  
 <br>
+<br>
 
 5. Install sysmon pipeline (since we are converting process creation sigma rules)  
 
