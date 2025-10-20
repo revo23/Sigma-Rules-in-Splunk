@@ -41,15 +41,17 @@ sigma convert -t <backend> -p <processing pipeline 1> -p <processing pipeline 2>
 backend = splunk  
 processing pipeline = sysmon
 
-4. conversion invocation
+4. To list all available pipelines plugins run the following command:
+<img width="922" height="88" alt="image" src="https://github.com/user-attachments/assets/68158fa8-9f8c-4a15-a600-a556b6886e11" />
+
+5. conversion invocation
  sigma convert -t splunk -f savedsearches -p sysmon -o savedsearches.conf sigma/rules/windows/process_creation
 
 <img width="1425" height="42" alt="image" src="https://github.com/user-attachments/assets/523375b4-5349-4648-b62b-3bb3225bcc50" />
 an output file can be specified with -o
 format specified for conversion with the -f option
 
-5. 
-<img width="922" height="88" alt="image" src="https://github.com/user-attachments/assets/68158fa8-9f8c-4a15-a600-a556b6886e11" />
+
 
 
 **References**
