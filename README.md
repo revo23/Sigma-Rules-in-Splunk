@@ -23,6 +23,8 @@ https://github.com/SigmaHQ/sigma-cli -> converter powered by pySigma
 1. Install Sigma Command Line Interface  
 
 pip3 install sigma-cli  
+<br>
+<br>
 
 2. To list all available backend plugins (Sigma backends are the "drivers" of the Sigma conversion process, and implements the conversion capability that converts each Sigma rule file into a SIEM compatible query.)  
 
