@@ -151,7 +151,7 @@ savedsearches.conf defines:
 - Report configurations
 
 21. run `splunk restart`    
-22. Go to Settings → Searches, Reports, and Alerts  
+22. Go to Settings → Searches, Reports, and Alerts > Owner:All  
 23. Sigma rules (in SPL converted format) successfully imported  
 <img width="1899" height="881" alt="image" src="https://github.com/user-attachments/assets/9d973fac-625b-4085-b60a-f9461bc0ae2b" />  
 24. `CommandLine` field does not show in splunk logs - let's fix
