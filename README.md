@@ -119,4 +119,5 @@ https://sigmahq.io/docs/guide/getting-started.html
 https://www.youtube.com/watch?v=WI3C3stHtcI  
 https://www.youtube.com/watch?v=gtVQVgkInwk  
 https://www.youtube.com/watch?v=rs6q28xUd-o  
+https://www.youtube.com/watch?v=uJ7pv6blyog
 
