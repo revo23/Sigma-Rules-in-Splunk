@@ -80,9 +80,15 @@ format specified for conversion with the -f option
 <br>
 <br>
 
-8. Download Splunk Add-on for Sysmon
+8. Download Splunk Add-on for Sysmon  
+<img width="1362" height="465" alt="image" src="https://github.com/user-attachments/assets/c09ab410-821c-4333-8eef-4c7b545a1498" />
 
-<img width="1362" height="465" alt="image" src="https://github.com/user-attachments/assets/c09ab410-821c-4333-8eef-4c7b545a1498" />  
+9. Install App from File
+<img width="1362" height="465" alt="image" src="https://github.com/user-attachments/assets/c09ab410-821c-4333-8eef-4c7b545a1498" />
+ 
+10. Download Splunk Universal Forwarder  
+The Splunk Universal Forwarder (UF) is a lightweight agent that collects and sends data to a Splunk indexer or heavy forwarder for indexing and analysis. It’s designed to efficiently move data from servers, endpoints, or applications to your main Splunk environment without using much system resources.
+ 
 
 
 
