@@ -82,7 +82,9 @@ format specified for conversion with the -f option
 
 8. Download Splunk Add-on for Sysmon
 
-<img width="1362" height="465" alt="image" src="https://github.com/user-attachments/assets/c09ab410-821c-4333-8eef-4c7b545a1498" />
+<img width="1362" height="465" alt="image" src="https://github.com/user-attachments/assets/c09ab410-821c-4333-8eef-4c7b545a1498" />  
+
+
 
 
 
