@@ -154,6 +154,9 @@ savedsearches.conf defines:
 22. Go to Settings → Searches, Reports, and Alerts  
 23. Sigma rules (in SPL converted format) successfully imported  
 <img width="1899" height="881" alt="image" src="https://github.com/user-attachments/assets/9d973fac-625b-4085-b60a-f9461bc0ae2b" />  
+24. `CommandLine` field does not show in splunk logs - let's fix
+25. Open C:\Program Files\SplunkUniversalForwarder\etc\system\local\inputs.conf
+26. Add `renderXml = true` to inputs.conf
 
 
 **References**
