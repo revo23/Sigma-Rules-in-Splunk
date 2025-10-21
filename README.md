@@ -17,6 +17,9 @@ https://github.com/SigmaHQ/sigma -> main repo containing the rules
 https://github.com/SigmaHQ/pySigma -> python library that parses and converts Sigma rules into queries  
 https://github.com/SigmaHQ/sigma-cli -> converter powered by pySigma  
 
+**Apps**
+Vscode - https://code.visualstudio.com/  
+Splunk Enterprise Free - https://www.splunk.com/en_us/download/splunk-enterprise.html  
 
 **Steps**
 
@@ -88,6 +91,9 @@ format specified for conversion with the -f option
 10. Download and Install Splunk Universal Forwarder  
 The Splunk Universal Forwarder (UF) is a lightweight agent that collects and sends data to a Splunk indexer or heavy forwarder for indexing and analysis. It’s designed to efficiently move data from servers, endpoints, or applications to your main Splunk environment without using much system resources.
  
+11. Setting > Data > Forwarding and receiving  
+Listen on port 9997
+<img width="1630" height="297" alt="image" src="https://github.com/user-attachments/assets/f69c4a0d-18e7-44dd-bad4-f27303e4e3da" />
 
 
 
