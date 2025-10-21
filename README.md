@@ -89,13 +89,16 @@ format specified for conversion with the -f option
 9. Manage Apps > Install App from File (.tgz)  
  
 10. Download and Install Splunk Universal Forwarder on localhost 
-The Splunk Universal Forwarder (UF) is a lightweight agent that collects and sends data to a Splunk indexer or heavy forwarder for indexing and analysis. It’s designed to efficiently move data from servers, endpoints, or applications to your main Splunk environment without using much system resources.
+The Splunk Universal Forwarder (UF) is a lightweight agent that collects and sends data to a Splunk indexer or heavy forwarder for indexing and analysis. It’s designed to efficiently move data from servers, endpoints, or applications to your main Splunk environment without using much system resources.  
+
+<img width="373" height="637" alt="image" src="https://github.com/user-attachments/assets/3f358880-f033-4b8b-a617-fbef598a3e83" />
+
  
-11. Setting > Data > Forwarding and receiving  
+12. Setting > Data > Forwarding and receiving  
 Add receiver > Listen on port 9997
 <img width="1630" height="297" alt="image" src="https://github.com/user-attachments/assets/f69c4a0d-18e7-44dd-bad4-f27303e4e3da" />
 
-12. Add forwarder  
+13. Add forwarder  
 <img width="1709" height="280" alt="image" src="https://github.com/user-attachments/assets/482b1656-6fc6-44db-8601-351f18716c91" />
 
 
