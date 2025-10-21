@@ -139,7 +139,7 @@ disabled = 0
 18. Restart Universal Forwarder  
 <img width="1385" height="443" alt="image" src="https://github.com/user-attachments/assets/d2393808-bf56-481d-b84f-a40b93944954" />  
 
-19. Sysmon logs seen in Splunk  
+19. Sysmon logs ingested into Splunk  
 <img width="1675" height="898" alt="image" src="https://github.com/user-attachments/assets/58154ee0-e454-412b-90d8-b1b0e0023a6a" />
 <img width="430" height="286" alt="image" src="https://github.com/user-attachments/assets/6cb88901-39c1-44b7-9288-e71da6b41447" />  
 
