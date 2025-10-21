@@ -21,7 +21,7 @@ https://github.com/SigmaHQ/sigma-cli -> converter powered by pySigma
 Vscode - https://code.visualstudio.com/  
 Splunk Enterprise Free - https://www.splunk.com/en_us/download/splunk-enterprise.html  
 Sysmon - https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon  
-Sysmon config file - 
+Sysmon config file - https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml
 
 **Steps**
 
@@ -116,6 +116,26 @@ Add receiver > Listen on port 9997
 
 <img width="776" height="578" alt="image" src="https://github.com/user-attachments/assets/ed73bcbb-7cfe-4d54-9fab-1a5d71de197b" />  
 
+16. Verify in Services Sysmon64 is running
+<img width="1103" height="600" alt="image" src="https://github.com/user-attachments/assets/dc03c584-1cc5-4f42-bd65-e5642efe3c62" />
+
+17. Verify in Event Viewer Sysmon logs are present  
+Applications and Services Logs/Microsoft/Windows/Sysmon/Operational  
+<img width="1200" height="1030" alt="image" src="https://github.com/user-attachments/assets/ee228d9c-7a2d-4cc5-9640-3336aa0c69e6" />  
+
+18. Configure Universal Forwarder to Collect Sysmon Logs  (paste into inputs.conf)  
+C:\Program Files\SplunkUniversalForwarder\etc\system\local\inputs.conf
+[WinEventLog://Microsoft-Windows-Sysmon/Operational]
+index = sysmon
+disabled = 0
+
+19. Restart Universal Forwarder  
+<img width="1385" height="443" alt="image" src="https://github.com/user-attachments/assets/d2393808-bf56-481d-b84f-a40b93944954" />  
+
+
+Sysmon logs seen in Splunk  
+<img width="1675" height="898" alt="image" src="https://github.com/user-attachments/assets/58154ee0-e454-412b-90d8-b1b0e0023a6a" />
+
 
 
 **References**
@@ -125,4 +145,3 @@ https://www.youtube.com/watch?v=WI3C3stHtcI
 https://www.youtube.com/watch?v=gtVQVgkInwk  
 https://www.youtube.com/watch?v=rs6q28xUd-o  
 https://www.youtube.com/watch?v=uJ7pv6blyog
-
