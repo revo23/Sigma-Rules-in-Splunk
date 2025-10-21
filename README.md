@@ -94,7 +94,8 @@ The Splunk Universal Forwarder (UF) is a lightweight agent that collects and sen
 11. Setting > Data > Forwarding and receiving  
 Listen on port 9997
 <img width="1630" height="297" alt="image" src="https://github.com/user-attachments/assets/f69c4a0d-18e7-44dd-bad4-f27303e4e3da" />
-
+12. Add forwarder
+<img width="1709" height="280" alt="image" src="https://github.com/user-attachments/assets/482b1656-6fc6-44db-8601-351f18716c91" />
 
 
 
