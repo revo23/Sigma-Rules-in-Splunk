@@ -7,7 +7,7 @@
 1. Convert Sigma rules into Splunk queries
 2. Ingest Sysmon logs from PC into Splunk
 3. Test out sample rule "7Zip Compressing Dump Files" to see if it triggers
-4. Curate according yo your environment
+4. Curate and tune rules according to your environment
 
 **High Level Concept (HLC)**
 
