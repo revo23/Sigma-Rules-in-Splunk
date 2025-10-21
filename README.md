@@ -17,7 +17,7 @@ https://github.com/SigmaHQ/sigma -> main repo containing the rules
 https://github.com/SigmaHQ/pySigma -> python library that parses and converts Sigma rules into queries  
 https://github.com/SigmaHQ/sigma-cli -> converter powered by pySigma  
 
-**Apps**
+**Apps**  
 Vscode - https://code.visualstudio.com/  
 Splunk Enterprise Free - https://www.splunk.com/en_us/download/splunk-enterprise.html  
 
