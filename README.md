@@ -21,7 +21,7 @@ https://github.com/SigmaHQ/sigma-cli -> converter powered by pySigma
 Vscode - https://code.visualstudio.com/  
 Splunk Enterprise Free - https://www.splunk.com/en_us/download/splunk-enterprise.html  
 Sysmon - https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon  
-
+Sysmon config file - 
 
 **Steps**
 
@@ -111,6 +111,8 @@ Add receiver > Listen on port 9997
 14. Setting > Agent Management
 <img width="1881" height="439" alt="image" src="https://github.com/user-attachments/assets/d41681d2-411f-4f23-b075-4cb1d28d1145" />
 
+15. Download and install Sysmon and Sysmon config file
+<img width="693" height="313" alt="image" src="https://github.com/user-attachments/assets/96bfa7e8-6be5-42f5-a34e-d65d30eecd06" />
 
 
 **References**
