@@ -106,6 +106,8 @@ Add receiver > Listen on port 9997
 13. Add forwarder  127.0.0.1 on port 8089  
 <img width="1709" height="280" alt="image" src="https://github.com/user-attachments/assets/482b1656-6fc6-44db-8601-351f18716c91" />
 
+14. Setting > Agent Management
+<img width="1881" height="439" alt="image" src="https://github.com/user-attachments/assets/d41681d2-411f-4f23-b075-4cb1d28d1145" />
 
 
 
