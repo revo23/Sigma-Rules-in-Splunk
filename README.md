@@ -124,10 +124,12 @@ Applications and Services Logs/Microsoft/Windows/Sysmon/Operational
 <img width="1200" height="1030" alt="image" src="https://github.com/user-attachments/assets/ee228d9c-7a2d-4cc5-9640-3336aa0c69e6" />  
 
 18. Configure Universal Forwarder to Collect Sysmon Logs  (paste into inputs.conf)  
-`C:\Program Files\SplunkUniversalForwarder\etc\system\local\inputs.conf  
+C:\Program Files\SplunkUniversalForwarder\etc\system\local\inputs.conf
+```
 [WinEventLog://Microsoft-Windows-Sysmon/Operational]  
 index = sysmon  
-disabled = 0`  
+disabled = 0
+```  
 
 19. Restart Universal Forwarder  
 <img width="1385" height="443" alt="image" src="https://github.com/user-attachments/assets/d2393808-bf56-481d-b84f-a40b93944954" />  
