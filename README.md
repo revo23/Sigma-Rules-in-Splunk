@@ -145,8 +145,16 @@ disabled = 0
 <img width="430" height="286" alt="image" src="https://github.com/user-attachments/assets/6cb88901-39c1-44b7-9288-e71da6b41447" />  
 
 20. Place savedsearches.conf in C:\Program Files\Splunk\etc\apps\search\local  
-21. run `splunk restart`  
-22. 
+savedsearches.conf defines:
+- Scheduled searches
+- Alerts
+- Report configurations
+
+21. run `splunk restart`    
+22. Go to Settings → Searches, Reports, and Alerts  
+23. Sigma rules (in SPL converted format) successfully imported  
+<img width="1899" height="881" alt="image" src="https://github.com/user-attachments/assets/9d973fac-625b-4085-b60a-f9461bc0ae2b" />  
+
 
 **References**
 
