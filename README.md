@@ -106,29 +106,29 @@ The Splunk Universal Forwarder (UF) is a lightweight agent that collects and sen
 <img width="373" height="637" alt="image" src="https://github.com/user-attachments/assets/3f358880-f033-4b8b-a617-fbef598a3e83" />
 
  
-12. Setting > Data > Forwarding and receiving  
+11. Setting > Data > Forwarding and receiving  
 Add receiver > Listen on port 9997
 <img width="1630" height="297" alt="image" src="https://github.com/user-attachments/assets/f69c4a0d-18e7-44dd-bad4-f27303e4e3da" />
 
-13. Add forwarder  127.0.0.1 on port 8089  
+12. Add forwarder  127.0.0.1 on port 8089  
 <img width="1709" height="280" alt="image" src="https://github.com/user-attachments/assets/482b1656-6fc6-44db-8601-351f18716c91" />
 
-14. Setting > Agent Management
+13. Setting > Agent Management
 <img width="1881" height="439" alt="image" src="https://github.com/user-attachments/assets/d41681d2-411f-4f23-b075-4cb1d28d1145" />
 
-15. Download and install Sysmon and Sysmon config file with admin powershell
+14. Download and install Sysmon and Sysmon config file with admin powershell
 <img width="693" height="313" alt="image" src="https://github.com/user-attachments/assets/96bfa7e8-6be5-42f5-a34e-d65d30eecd06" />
 
 <img width="776" height="578" alt="image" src="https://github.com/user-attachments/assets/ed73bcbb-7cfe-4d54-9fab-1a5d71de197b" />  
 
-16. Verify in Services Sysmon64 is running
+15. Verify in Services Sysmon64 is running
 <img width="1103" height="600" alt="image" src="https://github.com/user-attachments/assets/dc03c584-1cc5-4f42-bd65-e5642efe3c62" />
 
-17. Verify in Event Viewer Sysmon logs are present  
+16. Verify in Event Viewer Sysmon logs are present  
 Applications and Services Logs/Microsoft/Windows/Sysmon/Operational  
 <img width="1200" height="1030" alt="image" src="https://github.com/user-attachments/assets/ee228d9c-7a2d-4cc5-9640-3336aa0c69e6" />  
 
-18. Configure Universal Forwarder to Collect Sysmon Logs  (paste into inputs.conf)  
+17. Configure Universal Forwarder to Collect Sysmon Logs  (paste into inputs.conf)  
 C:\Program Files\SplunkUniversalForwarder\etc\system\local\inputs.conf
 ```
 [WinEventLog://Microsoft-Windows-Sysmon/Operational]  
@@ -136,10 +136,10 @@ index = sysmon
 disabled = 0
 ```  
 
-19. Restart Universal Forwarder  
+18. Restart Universal Forwarder  
 <img width="1385" height="443" alt="image" src="https://github.com/user-attachments/assets/d2393808-bf56-481d-b84f-a40b93944954" />  
 
-20. Sysmon logs seen in Splunk  
+19. Sysmon logs seen in Splunk  
 <img width="1675" height="898" alt="image" src="https://github.com/user-attachments/assets/58154ee0-e454-412b-90d8-b1b0e0023a6a" />
 
 
