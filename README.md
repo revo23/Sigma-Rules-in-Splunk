@@ -224,9 +224,9 @@ Operational
 ```
 <img width="1487" height="682" alt="image" src="https://github.com/user-attachments/assets/1f4c52db-2224-4e3a-8c4d-e09ce7c8d300" />
 
+31. Test `Audio Capture via PowerShell` rule
 
-
-
+run `powershell.exe -NoProfile -Command "Write-Output 'Toggle-AudioDevice test'"`
 
 
 **References**
