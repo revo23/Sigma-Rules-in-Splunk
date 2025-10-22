@@ -163,11 +163,19 @@ savedsearches.conf defines:
 
 26. Add `renderXml = true` to inputs.conf
    
-27. Powershell not logging CommandLines (big problems as alot of the sigma rules leverage on `CommandLine contains`)
+27. Powershell not logging CommandLines (alot of the sigma rules leverage on `CommandLine contains`)
 
-28. 
+28. Check Sysmon config
 
+Open your Sysmon config (e.g. sysmonconfig.xml or sysmonconfig-export.xml) and make sure this section exists:
 
+``<EventFiltering>
+  <ProcessCreate onmatch="include">
+    <Image condition="end with">powershell.exe</Image>
+    <Image condition="end with">pwsh.exe</Image>
+  </ProcessCreate>
+</EventFiltering>
+``
 
 
 
