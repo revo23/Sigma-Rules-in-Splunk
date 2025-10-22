@@ -208,7 +208,7 @@ Windows >
 Sysmon >
 Operational
 ```
-<img width="1617" height="888" alt="image" src="https://github.com/user-attachments/assets/f240d4a7-f7f8-4715-b032-8366a5e2348c" />
+<img width="1534" height="989" alt="image" src="https://github.com/user-attachments/assets/7709b2fc-4f6f-41f3-b3b5-4ad5aa580cee" />
 
 
 Powershell logs - 4103(module), 4104(script block))
