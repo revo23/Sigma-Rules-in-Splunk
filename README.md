@@ -169,13 +169,14 @@ savedsearches.conf defines:
 
 Open your Sysmon config (e.g. sysmonconfig.xml) and make sure this section exists:
 
-```<EventFiltering>
+```
+<EventFiltering>
   <ProcessCreate onmatch="include">
     <Image condition="end with">powershell.exe</Image>
     <Image condition="end with">pwsh.exe</Image>
   </ProcessCreate>
 </EventFiltering>
-
+```
 
 
 
