@@ -178,6 +178,19 @@ Open your Sysmon config (e.g. sysmonconfig.xml) and make sure this section exist
 </EventFiltering>
 ```
 
+29. Enable via Registry (if no GPO)
+
+Run as Administrator:
+
+```
+# Script Block Logging
+New-Item -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging -Force | Out-Null
+Set-ItemProperty -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging -Name EnableScriptBlockLogging -Value 1
+
+# Module Logging
+New-Item -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ModuleLogging -Force | Out-Null
+Set-ItemProperty -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ModuleLogging -Name EnableModuleLogging -Value 1
+```
 
 
 **References**
