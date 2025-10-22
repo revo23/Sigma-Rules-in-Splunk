@@ -178,7 +178,7 @@ Open your Sysmon config (e.g. sysmonconfig.xml) and make sure this section exist
 </EventFiltering>
 ```
 
-29. Enable via Registry (if no GPO)
+29. Enable PowerShell logging policies via Registry (if no GPO)
 
 Run as Administrator:
 
@@ -192,6 +192,15 @@ New-Item -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ModuleLoggin
 Set-ItemProperty -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ModuleLogging -Name EnableModuleLogging -Value 1
 ```
 
+30. Verify logging works in Event Viewer
+
+```
+Applications and Services Logs >
+Microsoft >
+Windows >
+PowerShell >
+Operational
+```
 
 **References**
 
