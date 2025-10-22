@@ -161,7 +161,14 @@ savedsearches.conf defines:
 
 25. Open C:\Program Files\SplunkUniversalForwarder\etc\system\local\inputs.conf  
 
-26. Add `renderXml = true` to inputs.conf  
+26. Add `renderXml = true` to inputs.conf
+   
+27. Powershell not logging Commandlines (big problems as alot of the sigma rules leverage on `CommandLine contains`)
+
+28. 
+
+
+
 
 
 **References**
