@@ -203,7 +203,7 @@ Operational
 ```
 <img width="1617" height="888" alt="image" src="https://github.com/user-attachments/assets/f240d4a7-f7f8-4715-b032-8366a5e2348c" />
 
-Powershell logs
+Powershell logs - 4103(module), 4104(script block))
 ```
 Applications and Services Logs >
 Microsoft >
