@@ -195,6 +195,12 @@ Set-ItemProperty -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\Modu
 30. Verify logging works in Event Viewer
 
 Sysmon logs
+
+Event ID 1 = Process Create. It records process creation events (who started what program, when, with which command line, parent PID, etc.).
+
+If a PowerShell process is launched with a command on the command line (for example powershell.exe -Command "Get-Process" or powershell.exe -EncodedCommand <base64>), that full command line will appear in the Event ID 1 CommandLine field.
+
+
 ```
 Applications and Services Logs >
 Microsoft >
@@ -206,6 +212,9 @@ Operational
 
 
 Powershell logs - 4103(module), 4104(script block))
+
+If you run powershell.exe once and then type commands interactively at the PS> prompt, those typed commands are executed inside the same process and are not new process-creations, so Event ID 1 does not capture them. It is captured in below Event Viewer log.
+
 ```
 Applications and Services Logs >
 Microsoft >
@@ -215,7 +224,6 @@ Operational
 ```
 <img width="1487" height="682" alt="image" src="https://github.com/user-attachments/assets/1f4c52db-2224-4e3a-8c4d-e09ce7c8d300" />
 
-<img width="1487" height="682" alt="image" src="https://github.com/user-attachments/assets/213db164-4ad9-46a6-9513-689fa379a794" />
 
 
 
