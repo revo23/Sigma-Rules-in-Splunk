@@ -215,6 +215,7 @@ Operational
 ```
 <img width="1487" height="682" alt="image" src="https://github.com/user-attachments/assets/1f4c52db-2224-4e3a-8c4d-e09ce7c8d300" />
 
+<img width="1487" height="682" alt="image" src="https://github.com/user-attachments/assets/213db164-4ad9-46a6-9513-689fa379a794" />
 
 
 
