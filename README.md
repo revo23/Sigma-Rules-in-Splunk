@@ -193,6 +193,7 @@ Set-ItemProperty -Path HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\Modu
 ```
 
 30. Verify logging works in Event Viewer
+
 Sysmon logs
 ```
 Applications and Services Logs >
@@ -203,6 +204,7 @@ Operational
 ```
 <img width="1617" height="888" alt="image" src="https://github.com/user-attachments/assets/f240d4a7-f7f8-4715-b032-8366a5e2348c" />
 
+
 Powershell logs - 4103(module), 4104(script block))
 ```
 Applications and Services Logs >
@@ -211,6 +213,12 @@ Windows >
 PowerShell >
 Operational
 ```
+<img width="1487" height="682" alt="image" src="https://github.com/user-attachments/assets/1f4c52db-2224-4e3a-8c4d-e09ce7c8d300" />
+
+
+
+
+
 
 **References**
 
