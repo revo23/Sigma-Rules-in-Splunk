@@ -117,7 +117,7 @@ Add receiver > Listen on port 9997
 13. Setting > Agent Management
 <img width="1881" height="439" alt="image" src="https://github.com/user-attachments/assets/d41681d2-411f-4f23-b075-4cb1d28d1145" />
 
-14. Download and install Sysmon and Sysmon config file with admin powershell
+14. Download and install Sysmon and Sysmon config file sysmonconfig.xml with admin powershell
 <img width="693" height="313" alt="image" src="https://github.com/user-attachments/assets/96bfa7e8-6be5-42f5-a34e-d65d30eecd06" />
 
 <img width="776" height="578" alt="image" src="https://github.com/user-attachments/assets/ed73bcbb-7cfe-4d54-9fab-1a5d71de197b" />  
