@@ -167,15 +167,15 @@ savedsearches.conf defines:
 
 28. Check Sysmon config
 
-Open your Sysmon config (e.g. sysmonconfig.xml or sysmonconfig-export.xml) and make sure this section exists:
+Open your Sysmon config (e.g. sysmonconfig.xml) and make sure this section exists:
 
-``<EventFiltering>
+```<EventFiltering>
   <ProcessCreate onmatch="include">
     <Image condition="end with">powershell.exe</Image>
     <Image condition="end with">pwsh.exe</Image>
   </ProcessCreate>
 </EventFiltering>
-``
+
 
 
 
