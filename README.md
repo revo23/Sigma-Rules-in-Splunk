@@ -163,7 +163,7 @@ savedsearches.conf defines:
 
 26. Add `renderXml = true` to inputs.conf
    
-27. Powershell not logging Commandlines (big problems as alot of the sigma rules leverage on `CommandLine contains`)
+27. Powershell not logging CommandLines (big problems as alot of the sigma rules leverage on `CommandLine contains`)
 
 28. 
 
