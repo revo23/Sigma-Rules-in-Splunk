@@ -224,9 +224,22 @@ Operational
 ```
 <img width="1487" height="682" alt="image" src="https://github.com/user-attachments/assets/1f4c52db-2224-4e3a-8c4d-e09ce7c8d300" />
 
+32. Save as an Alert
+
+<img width="2357" height="1558" alt="image" src="https://github.com/user-attachments/assets/4ed30f4b-4550-464b-b01f-1fdbfc78c110" />
+
+
 31. Test `Audio Capture via PowerShell` rule
 
-run `powershell.exe -NoProfile -Command "Write-Output 'Toggle-AudioDevice test'"`
+run `powershell.exe -NoProfile -Command "Write-Output 'Toggle-AudioDevice test'"` in admin powershell
+
+<img width="3531" height="1534" alt="image" src="https://github.com/user-attachments/assets/67f96ccd-3fc5-44fa-b508-39103a28d42c" />
+
+
+
+33. Go to Activity > Triggered Alerts, the alert is seen
+
+<img width="3727" height="1039" alt="image" src="https://github.com/user-attachments/assets/e6e2c4f1-7300-4f32-ae70-daeeb124e2c6" />
 
 
 **References**
