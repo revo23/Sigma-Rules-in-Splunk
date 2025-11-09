@@ -245,7 +245,7 @@ run `powershell.exe -NoProfile -Command "Write-Output 'Toggle-AudioDevice test'"
 **References**
 
 https://sigmahq.io/docs/guide/getting-started.html  
-https://www.youtube.com/watch?v=WI3C3stHtcI  
+<!-- [This text will not appear in the rendered](https://www.youtube.com/watch?v=WI3C3stHtcI  
 https://www.youtube.com/watch?v=gtVQVgkInwk  
 https://www.youtube.com/watch?v=rs6q28xUd-o  
-https://www.youtube.com/watch?v=uJ7pv6blyog
+https://www.youtube.com/watch?v=uJ7pv6blyog) README -->
