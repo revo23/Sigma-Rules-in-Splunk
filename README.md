@@ -24,6 +24,7 @@ https://github.com/SigmaHQ/pySigma -> python library that parses and converts Si
 https://github.com/SigmaHQ/sigma-cli -> converter powered by pySigma  
 
 **Apps**  
+
 Vscode - https://code.visualstudio.com/  
 Splunk Enterprise Free - https://www.splunk.com/en_us/download/splunk-enterprise.html  
 Sysmon - https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon  
