@@ -238,7 +238,7 @@ run `powershell.exe -NoProfile -Command "Write-Output 'Toggle-AudioDevice test'"
 
 
 
-33. Go to Activity > Triggered Alerts, the alert is seen!
+32. Go to Activity > Triggered Alerts, the alert is seen!
 
 <img width="3727" height="1039" alt="image" src="https://github.com/user-attachments/assets/e6e2c4f1-7300-4f32-ae70-daeeb124e2c6" />
 
