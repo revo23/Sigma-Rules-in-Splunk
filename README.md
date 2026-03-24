@@ -4,7 +4,7 @@
 
 **Overview**
 
-1. Convert Sigma rules into Splunk queries
+1. Convert Sigma rules into Splunk alerts
 2. Ingest Sysmon logs from PC into Splunk
 3. Test out a sample rule to see if it triggers
 4. Curate and tune rules according to your environment
